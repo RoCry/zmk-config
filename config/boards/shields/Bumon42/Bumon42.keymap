@@ -39,8 +39,8 @@
         symbol_layer {
           bindings = <
             &trans &kp  EXCL &kp AT  &kp HASH  &kp DOLLAR  &kp PRCNT     &kp CARET  &kp AMPS  &kp STAR  &kp LPAR  &kp RPAR  &trans 
-            &trans &kp MINUS  &kp UNDER  &kp SQT &kp DQT  &kp SEMI       &kp COLON  &kp LBRC  &kp RBRC  &kp LBKT  &kp RBKT  &trans 
-            &trans &kp EQUAL  &kp PLUS  &kp FSLH &kp QMARK  &kp BSLH     &kp PIPE  &trans &trans &trans  &trans 
+            &trans &kp MINUS  &kp UNDER  &kp SQT &kp DQT &kp PIPE &kp LBRC  &kp RBRC  &kp LBKT  &kp RBKT  &trans 
+            &trans &kp EQUAL  &kp PLUS  &kp FSLH &kp QMARK  &kp BSLH        &kp SEMI       &kp COLON  &trans &trans  &trans 
             &none   &none   &none       &trans           &trans          &trans  &trans  &trans
 			       >;
           sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
