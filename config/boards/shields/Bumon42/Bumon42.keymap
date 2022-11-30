@@ -12,7 +12,7 @@
 #define ADJ 3
 #define FN  4
 
-#define TAPPING_TERM 170
+#define TAPPING_TERM 200
 #define COMBO_TIMEOUT 40
 
 #define HYP LS(LC(LA(LGUI)))
@@ -42,7 +42,7 @@
           &kp LSHFT     &kp Z  &kp X  &kp C  &kp V  &kp B      &kp N  &kp M  &kp COMMA &kp DOT   &kp RSHFT
           &kp LCTRL     &kp LALT &kp LGUI &lt NUM SPACE        &lt SYM SPACE &kp RGUI  &mo ADJ  &kp C_MUTE
             >;
-        sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
+        sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 
       };
 
@@ -73,7 +73,7 @@
           &none  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &rgb_ug RGB_SPD  &rgb_ug RGB_EFR   &none  &none  &none  &none  &mo FN
           &none  &none &none  &none  &none &mo FN  &none &rgb_ug RGB_TOG
             >;
-        sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
+        sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
       };
 
       fn_layer {
@@ -83,7 +83,7 @@
           &none &out OUT_USB  &out OUT_BLE  &out OUT_TOG  &none  &none  &none   &none  &none  &none  &bootloader
           &none &none  &none  &none  &none  &none   &none  &none
             >;
-        sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
+        sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
       };
   };
 };
